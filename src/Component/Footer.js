@@ -28,12 +28,12 @@ const Footer = () => {
           <Grid item>
             <div className={classes.itemSpace}>
               <div className={classes.title}>Company</div>
-              <div
+              {/* <div
                 className={classes.elementIn}
                 onClick={() => (window.location.href = "/about")}
               >
                 About us
-              </div>
+              </div> */}
               <div
                 className={classes.elementIn}
                 onClick={() => (window.location.href = "/contact")}
@@ -46,8 +46,24 @@ const Footer = () => {
           <Grid item>
             <div className={classes.itemSpace}>
               <div className={classes.title}>Products</div>
-              <div className={classes.elementIn}>Ride</div>
-              <div className={classes.elementIn}>Delivery</div>
+              <div
+                className={classes.elementIn}
+                onClick={() => (window.location.href = "/")}
+              >
+                Ride
+              </div>
+              <div
+                className={classes.elementIn}
+                onClick={() => (window.location.href = "/")}
+              >
+                Delivery
+              </div>
+              <div
+                className={classes.elementIn}
+                onClick={() => (window.location.href = "/")}
+              >
+                Shopping
+              </div>
             </div>
           </Grid>
         </Grid>
@@ -60,7 +76,8 @@ const Footer = () => {
               <div className={classes.socialMed}>
                 <Twitter
                   onClick={() =>
-                    (window.location.href = "https://twitter.com/TaxiConnectna")
+                    (window.location.href =
+                      "https://twitter.com/Orniss_namibia")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
@@ -69,7 +86,7 @@ const Footer = () => {
                 <Instagram
                   onClick={() =>
                     (window.location.href =
-                      "https://www.instagram.com/taxiconnect.na/")
+                      "https://www.instagram.com/orniss_namibia/")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
@@ -77,8 +94,7 @@ const Footer = () => {
               <div className={classes.socialMed}>
                 <Facebook
                   onClick={() =>
-                    (window.location.href =
-                      "https://www.facebook.com/TaxiConnectna/")
+                    (window.location.href = "https://www.facebook.com/orniss")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
@@ -87,7 +103,7 @@ const Footer = () => {
                 <LinkedIn
                   onClick={() =>
                     (window.location.href =
-                      "https://www.linkedin.com/company/taxiconnect-namibia")
+                      "https://www.linkedin.com/company/orniss")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
@@ -109,7 +125,7 @@ const Footer = () => {
       {/* Thrid stage */}
       <Grid container className={classes.containerCopyrightTerms}>
         <Grid item xs={6} className={classes.copyrPart1}>
-          <div>© 2021 Posterity TaxiConnect Technologies CC.</div>
+          <div>© 2022 Orniss Technologies CC.</div>
         </Grid>
         <Grid item xs={6} className={classes.copyrPart2}>
           <div

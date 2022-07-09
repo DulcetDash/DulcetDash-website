@@ -2,13 +2,17 @@ import classes from "../styles/Header.module.css";
 import logo from "../Images/logo.png";
 import Grid from "@material-ui/core/Grid";
 import LoginButton from "./LoginButton";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className={classes.headerBar}>
       <Grid container direction="row" alignItems="center">
         <Grid item>
-          <div className={classes.logo}>
+          <div
+            className={classes.logo}
+            onClick={() => (window.location.href = "/")}
+          >
             <img
               alt="logo"
               src={logo}
@@ -19,24 +23,22 @@ const Header = () => {
         </Grid>
         <Grid item>
           <div>
-            <span
+            {/* <span
               className={classes.headerMenuName}
               onClick={() => (window.location.href = "/about")}
             >
               About
-            </span>
-            <span
-              className={classes.headerMenuName}
-              onClick={() => (window.location.href = "/privacy")}
-            >
-              Privacy
-            </span>
-            <span
-              className={classes.headerMenuName}
-              onClick={() => (window.location.href = "/contact")}
-            >
-              Contact
-            </span>
+            </span> */}
+            <Link className={classes.headerMenuName}>
+              <span onClick={() => (window.location.href = "/privacy")}>
+                Privacy
+              </span>
+            </Link>
+            <Link className={classes.headerMenuName}>
+              <span onClick={() => (window.location.href = "/contact")}>
+                Contact
+              </span>
+            </Link>
           </div>
         </Grid>
         <div className={classes.loginSignupContainer}>

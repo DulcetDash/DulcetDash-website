@@ -1,14 +1,15 @@
 import classes from "../../styles/Home_desktop.module.css";
 import Header from "../Header";
-import headerPic from "../../Images/headerPic.png";
+import headerPic from "../../Images/headerPic.jpg";
 import Phone1 from "../../Images/phone1.png";
 import ButtonDownload from "../ButtonDownload";
 import Grid from "@material-ui/core/Grid";
 import SideSummary from "../SideSummary";
-import { VerifiedUser } from "@material-ui/icons";
+import { VerifiedUser, CheckCircle } from "@material-ui/icons";
 import ExpositionOfThing from "../ExpositionOfThing";
 import ConnectMeUs from "../ConnectMeUs";
 import SafetyShowcase from "../SafetyShowcase";
+import TechShowcase from "../TechShowcase";
 import Footer from "../Footer";
 // Images vehicles
 import comfortrideElectric_d from "../../Images/Vehicles/comfortrideElectric_d.jpg";
@@ -40,30 +41,32 @@ const HomeDesktop = () => {
             <div className={classes.leftpartContainer}>
               <div className={classes.prestTextEntryContainer}>
                 <span className={classes.prestTextEntry}>
-                  Better, Safer, and Convenient transportation.
+                  Go anywhere,
+                  <br />
+                  Move anything,
+                  <br />
+                  Shop for anything
                 </span>
               </div>
               <div className={classes.presTextSubContainer}>
                 <span className={classes.presTextSub}>
-                  We provide interactive and smart technology for transport
-                  booking and transport management.
+                  The most customer-centric app for your everyday logisitics
+                  needs, just a click away.
                 </span>
               </div>
               <div className={classes.presHaaderDownloadContainer}>
                 <ButtonDownload
                   link={
-                    "https://play.google.com/store/apps/details?id=com.taxiconnect"
+                    "https://play.google.com/store/apps/details?id=com.Orniss"
                   }
                 />
-                <ButtonDownload
+                {/* <ButtonDownload
                   storeIcon="appstore"
                   introTitle="Or"
                   storeName="AppStore"
                   marginLeft={"5%"}
-                  link={
-                    "https://apps.apple.com/us/app/taxiconnect/id1523176507"
-                  }
-                />
+                  link={"https://apps.apple.com/us/app/Orniss/id1523176507"}
+                /> */}
               </div>
             </div>
           </Grid>
@@ -77,20 +80,23 @@ const HomeDesktop = () => {
 
       <div className={classes.businessContainer}>
         <div className={classes.insideBusinessC}>
-          <div className={classes.titleBusi}>TaxiConnect for Business</div>
+          <div className={classes.titleBusi}>Earn extra money</div>
           <div className={classes.subTitleBusi}>
-            Solutions that help grow your business
-          </div>
-          <div
-            className={classes.btnDeliverySol}
-            onClick={() =>
-              (window.location.href =
-                "https://www.delivery.taxiconnectnanetwork.com/")
-            }
-          >
-            Delivery solution
+            Drive on your free time for Orniss to make money
           </div>
         </div>
+        {/* Button */}
+        <div
+          className={classes.btnDeliverySol}
+          onClick={() => (window.location.href = "/contact")}
+        >
+          Sign up to drive
+        </div>
+      </div>
+
+      {/* 3 major pillar */}
+      <div className={classes.bodyPartThreeContainerVar2}>
+        <ConnectMeUs />
       </div>
 
       {/* Body part one */}
@@ -109,35 +115,35 @@ const HomeDesktop = () => {
           <Grid item xs={5}>
             <div className={classes.rightPartBPOContainer}>
               <SideSummary
-                mainTitle={"Why TaxiConnect?"}
+                mainTitle={"Why Orniss?"}
                 headTitles={[
-                  "Easy ride booking",
-                  "Efficient pricing",
-                  "On track management",
+                  "Tap once, do anything",
+                  "Sound safety",
+                  "Accurate pricing",
                 ]}
                 subForTitles={[
-                  "TaxiConnect allows you to quickly find the closest taxi around you for your destination.",
-                  "Our prices start from the normal taxi fares and optional services for your convenience at its best.",
-                  "We provide our partners with a platform to track the daily activities of their business in real time.",
+                  "Orniss allows you make ride, delivery or shopping requests seemlessly and consistently.",
+                  "We keep you safe at all times by encrypting end-to-end all your data.",
+                  "We provide very realistic and affordable prices anywhere in Windhoek.",
                 ]}
                 iconLeading={
-                  <VerifiedUser
+                  <CheckCircle
                     style={{ fontSize: "3.2vmin", color: "#096ED4" }}
                   />
                 }
                 endComponents={[
                   <ButtonDownload
                     link={
-                      "https://play.google.com/store/apps/details?id=com.taxiconnect"
+                      "https://play.google.com/store/apps/details?id=com.Orniss"
                     }
                   />,
-                  <ButtonDownload
-                    storeIcon="appgallery"
-                    introTitle="Or"
-                    storeName="AppGallery"
-                    marginLeft={"7%"}
-                    link={"https://appgallery.huawei.com/app/C104325591"}
-                  />,
+                  // <ButtonDownload
+                  //   storeIcon="appgallery"
+                  //   introTitle="Or"
+                  //   storeName="AppGallery"
+                  //   marginLeft={"7%"}
+                  //   link={"https://appgallery.huawei.com/app/C104325591"}
+                  // />,
                 ]}
               />
             </div>
@@ -146,7 +152,7 @@ const HomeDesktop = () => {
       </div>
 
       {/* Body part two */}
-      <div className={classes.bodyPartTwoContainer}>
+      {/* <div className={classes.bodyPartTwoContainer}>
         <ExpositionOfThing
           mainTitle={"Rides and deliveries seemlessly"}
           subtitle={
@@ -162,50 +168,11 @@ const HomeDesktop = () => {
             luxuryRideNormal_d,
           ]}
         />
-      </div>
-
-      {/* Body part three */}
-      <div className={classes.bodyPartThreeContainer}>
-        <ConnectMeUs />
-      </div>
+      </div> */}
 
       {/* Body part four */}
-      <div className={classes.bodyPartFourContainer}>
-        <Grid
-          container
-          direction="row"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <Grid item xs={4}>
-            <div className={classes.leftPartBPOContainer}>
-              <img alt="phon1" src={phoneHands} className={classes.phone1} />
-            </div>
-          </Grid>
-          <Grid item xs={5}>
-            <div className={classes.rightPartBPOContainer}>
-              <SideSummary
-                mainTitle={"Cashless payments to taxis"}
-                headTitles={[
-                  "Pay any driver",
-                  "Send cab fares to anyone",
-                  "Auto-secured wallet",
-                ]}
-                subForTitles={[
-                  "Do you prefer not to carry hard cash around? We got you covered! Use your Connect Wallet to pay any of our partner drivers.",
-                  "We use high-end encryptions to keep Connect Wallet safe and completely under your control.",
-                  "We use high-end encryptions to keep Connect Wallet safe and completely under your control.",
-                ]}
-                iconLeading={
-                  <VerifiedUser
-                    style={{ fontSize: "3.2vmin", color: "#0e8491" }}
-                  />
-                }
-                endComponents={null}
-              />
-            </div>
-          </Grid>
-        </Grid>
+      <div className={classes.bodyPartThreeContainer}>
+        <TechShowcase />
       </div>
 
       {/* Body part five */}

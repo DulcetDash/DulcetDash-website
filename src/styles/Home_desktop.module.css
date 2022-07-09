@@ -2,30 +2,37 @@
   font-family: "MoveBold";
   src: local("MoveBold"), url(../fonts/MoveBold.otf);
 }
+
 @font-face {
   font-family: "MoveMedium";
   src: local("MoveMedium"), url(../fonts/MoveMedium.otf);
 }
+
 @font-face {
   font-family: "MoveRegular";
   src: local("MoveRegular"), url(../fonts/MoveRegular.ttf);
 }
+
 @font-face {
   font-family: "MoveLight";
   src: local("MoveLight"), url(../fonts/MoveLight.ttf);
 }
+
 @font-face {
   font-family: "MoveTextBold";
   src: local("MoveTextBold"), url(../fonts/UberMoveTextBold.otf);
 }
+
 @font-face {
   font-family: "MoveTextMedium";
   src: local("UberMoveTextMedium"), url(../fonts/UberMoveTextMedium.otf);
 }
+
 @font-face {
   font-family: "MoveTextRegular";
   src: local("UberMoveTextRegular"), url(../fonts/UberMoveTextRegular.otf);
 }
+
 @font-face {
   font-family: "MoveTextLight";
   src: local("UberMoveTextLight"), url(../fonts/UberMoveTextLight.otf);
@@ -43,8 +50,11 @@
   align-items: center;
   flex: 1;
   /* border: 1px solid black; */
-  height: 70vmin;
+  height: 91vmin;
+  background-color: #11A05A;
+  margin-top: 1%;
 }
+
 .gridContainer {
   display: flex;
   flex: 1;
@@ -52,6 +62,7 @@
 }
 
 .leftpartContainer {
+  /* border: 1px solid red; */
   flex-direction: row;
   display: inline-block;
   flex: 1;
@@ -60,24 +71,26 @@
 
 .rightpartContainer {
   /* border: 1px solid blue; */
-  height: 60vmin;
+  height: 91vmin;
   flex: 1;
   flex-grow: 1;
 }
+
 .headerPic {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  /* border-top-left-radius: 50px; */
+  /* border-bottom-left-radius: 50px; */
 }
 
 /** Header entry text **/
-.prestTextEntryContainer {
-}
+.prestTextEntryContainer {}
+
 .prestTextEntry {
   font-family: "MoveBold", sans-serif;
   font-size: 6vmin;
+  color: white;
 }
 
 .presTextSubContainer {
@@ -85,7 +98,9 @@
   /* border: 1px solid black; */
   width: 90%;
 }
+
 .presTextSub {
+  color: white
 }
 
 .presHaaderDownloadContainer {
@@ -98,7 +113,7 @@
   background-color: #f8f9fb;
   min-height: 70vmin;
   /* margin-top: 5%; */
-  padding-top: 5%;
+  padding-top: 15%;
   padding-bottom: 5%;
 }
 
@@ -109,6 +124,7 @@
   display: flex;
   justify-content: center;
 }
+
 .phone1 {
   object-fit: contain;
 }
@@ -129,8 +145,15 @@
 
 /* Body part three */
 .bodyPartThreeContainer {
-  min-height: 50vmin;
+  height: 40vmin;
   margin-top: 5%;
+  /* background-color: red; */
+}
+
+.bodyPartThreeContainerVar2 {
+  min-height: 60vmin;
+  margin-top: 5%;
+  /* background-color: red; */
 }
 
 /* Body part four */
@@ -148,30 +171,32 @@
   min-height: 30vmin;
   margin-top: 10%;
   padding-bottom: 10%;
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #11A05A;
+  color: white;
 }
 
 .businessContainer {
   /* border: 1px solid black; */
-  height: 280px;
+  height: 230px;
   background-color: #d0d0d0;
-  background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.95),
-      rgba(255, 255, 255, 0.7),
-      rgb(0, 0, 0, 0.5)
-    ),
-    url("../Images/buildings1.jpg");
+  background: linear-gradient(to right,
+      rgba(9, 110, 212, 0.9),
+      rgba(9, 110, 212, 0.9),
+      rgba(17, 160, 91, 0.9)),
+    url("../Images/5808877.jpg");
   background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 5%;
+  background-repeat: repeat;
+  background-size: contain;
+  /* margin-top: 5%; */
   display: flex;
   flex: 1;
   align-items: center;
   /* justify-content: center; */
+  padding-right: 20%;
 }
 
 .backgroundBusiness {
@@ -182,27 +207,30 @@
 
 .insideBusinessC {
   /* border: 1px solid black; */
-  padding-left: 10%;
+  padding-left: 20%;
   padding-right: 10%;
   flex: 1;
+  color: white;
 }
 
 .titleBusi {
-  font-family: "MoveTextBold", sans-serif;
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-family: "MoveBold", sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .btnDeliverySol {
-  border: 1px solid black;
+  border: 1px solid #fff;
   font-family: "MoveTextMedium", sans-serif;
-  background-color: #000;
-  color: #fff;
-  width: 200px;
-  height: 50px;
+  background-color: #fff;
+  color: #000;
+  width: 250px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  font-size: 19px;
   cursor: pointer;
+  border-radius: 1000px;
 }

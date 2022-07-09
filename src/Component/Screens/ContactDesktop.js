@@ -15,6 +15,7 @@ import {
 import ReactMapGL from "react-map-gl";
 import React from "react";
 import hands2 from "../../Images/hands2.png";
+import Footer from "../Footer";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -73,7 +74,7 @@ class ContactDesktop extends React.PureComponent {
             height={"100%"}
             latitude={-22.575942561535346}
             longitude={17.08319797425795}
-            zoom={14}
+            zoom={11}
             mapStyle={"mapbox://styles/mapbox/streets-v11"}
             mapboxApiAccessToken={
               "pk.eyJ1IjoiZG9taW5pcXVla3R0IiwiYSI6ImNrYXg0M3gyNDAybDgyem81cjZuMXp4dzcifQ.PpW6VnORUHYSYqNCD9n6Yg"
@@ -108,9 +109,9 @@ class ContactDesktop extends React.PureComponent {
                   headTitles={["", "Our address", "Our phone number", ""]}
                   subForTitles={[
                     "We'll be more than happy to assist you with any query, you can get in touch with us any time.",
-                    "Nr. 19 Shinz Street Windhoek CBD, Namibia",
-                    "+264812876860",
-                    "support@taxiconnectna.com",
+                    "Windhoek, Namibia",
+                    "+264856997167",
+                    "support@ornisstechnologies.com",
                   ]}
                   iconLeading={<></>}
                   endComponents={null}
@@ -119,6 +120,9 @@ class ContactDesktop extends React.PureComponent {
             </Grid>
           </Grid>
         </div>
+
+        {/* Footer */}
+        <Footer />
       </div>
     );
   }

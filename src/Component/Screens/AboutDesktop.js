@@ -100,7 +100,7 @@ const AboutDesktop = () => {
           <Grid item xs={5}>
             <div className={classes.rightPartBPOContainer}>
               <SideSummary
-                mainTitle={"Why TaxiConnect cares?"}
+                mainTitle={"Why Orniss cares?"}
                 headTitles={[""]}
                 subForTitles={[
                   "The Namibian taxi industry is one berly evolving and is being left behind as the world moves into the 4th Industrial Revolution thus leaving gaps for fear, theft, piracy and so many others you or someone close to you has personally experienced. We care because your safety matters and you deserve convenience in your busy schedule.",
@@ -292,7 +292,7 @@ const AboutDesktop = () => {
                 ]}
                 iconLeading={
                   <VerifiedUser
-                    style={{ fontSize: "3.2vmin", color: "#0e8491" }}
+                    style={{ fontSize: "3.2vmin", color: "#11A05A" }}
                   />
                 }
                 endComponents={null}

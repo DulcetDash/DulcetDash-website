@@ -2,30 +2,37 @@
   font-family: "MoveBold";
   src: local("MoveBold"), url(../fonts/MoveBold.otf);
 }
+
 @font-face {
   font-family: "MoveMedium";
   src: local("MoveMedium"), url(../fonts/MoveMedium.otf);
 }
+
 @font-face {
   font-family: "MoveRegular";
   src: local("MoveRegular"), url(../fonts/MoveRegular.ttf);
 }
+
 @font-face {
   font-family: "MoveLight";
   src: local("MoveLight"), url(../fonts/MoveLight.ttf);
 }
+
 @font-face {
   font-family: "MoveTextBold";
   src: local("MoveTextBold"), url(../fonts/UberMoveTextBold.otf);
 }
+
 @font-face {
   font-family: "MoveTextMedium";
   src: local("UberMoveTextMedium"), url(../fonts/UberMoveTextMedium.otf);
 }
+
 @font-face {
   font-family: "MoveTextRegular";
   src: local("UberMoveTextRegular"), url(../fonts/UberMoveTextRegular.otf);
 }
+
 @font-face {
   font-family: "MoveTextLight";
   src: local("UberMoveTextLight"), url(../fonts/UberMoveTextLight.otf);
@@ -49,7 +56,7 @@
 .downloadTerms {
   font-family: "MoveTextBold", sans-serif;
   font-size: 2vmin;
-  color: #0e8491;
+  color: #11A05A;
   border-bottom: 1px solid #d0d0d0;
   padding-bottom: 15px;
   margin-bottom: 25px;
@@ -60,6 +67,7 @@
   font-size: 2.2vmin;
   margin-bottom: 10px;
 }
+
 .dateUpdated {
   font-size: 1.7vmin;
   margin-bottom: 30px;
@@ -87,13 +95,15 @@
 .pointTitle {
   font-family: "MoveTextBold", sans-serif;
   font-size: 2.2vmin;
-  color: #0e8491;
+  color: #11A05A;
   /* border: 1px solid black; */
   margin-bottom: 20px;
 }
+
 .pointContentContainer {
   /* border: 1px solid black; */
 }
+
 .textPointSingle {
   /* border: 1px solid red; */
   display: flex;
@@ -106,6 +116,7 @@
   bottom: 2px;
   /* border: 1px solid black; */
 }
+
 .pointTrueText {
   /* border: 1px solid red; */
   line-height: 22px;
@@ -120,6 +131,7 @@
   font-family: "MoveTextMedium", sans-serif;
   font-size: 2vmin;
 }
+
 .subTitleSuperText {
   /* border: 1px solid black; */
   font-family: "MoveTextBold", sans-serif;

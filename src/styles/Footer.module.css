@@ -2,30 +2,37 @@
   font-family: "MoveBold";
   src: local("MoveBold"), url(../fonts/MoveBold.otf);
 }
+
 @font-face {
   font-family: "MoveMedium";
   src: local("MoveMedium"), url(../fonts/MoveMedium.otf);
 }
+
 @font-face {
   font-family: "MoveRegular";
   src: local("MoveRegular"), url(../fonts/MoveRegular.ttf);
 }
+
 @font-face {
   font-family: "MoveLight";
   src: local("MoveLight"), url(../fonts/MoveLight.ttf);
 }
+
 @font-face {
   font-family: "MoveTextBold";
   src: local("MoveTextBold"), url(../fonts/UberMoveTextBold.otf);
 }
+
 @font-face {
   font-family: "MoveTextMedium";
   src: local("UberMoveTextMedium"), url(../fonts/UberMoveTextMedium.otf);
 }
+
 @font-face {
   font-family: "MoveTextRegular";
   src: local("UberMoveTextRegular"), url(../fonts/UberMoveTextRegular.otf);
 }
+
 @font-face {
   font-family: "MoveTextLight";
   src: local("UberMoveTextLight"), url(../fonts/UberMoveTextLight.otf);
@@ -56,11 +63,13 @@
   /* border: 1px solid black; */
   min-height: 10vmin;
 }
+
 .title {
   /* border: 1px solid black; */
   font-family: "MoveTextBold";
   padding-bottom: 20px;
 }
+
 .elementIn {
   /* border: 1px solid black; */
   font-size: 1.7vmin;
@@ -81,6 +90,7 @@
   margin-right: 100px;
   align-items: center;
 }
+
 .socialMed {
   margin-right: 25px;
   cursor: pointer;
@@ -99,6 +109,7 @@
   align-items: center;
   margin-right: 20px;
 }
+
 .sse2Part2 {
   display: flex;
   align-items: center;
@@ -134,7 +145,7 @@
 .logoFooter {
   /* border: 1px solid white; */
   position: relative;
-  width: 90px;
+  width: 110px;
   height: 40px;
   right: 10px;
 }

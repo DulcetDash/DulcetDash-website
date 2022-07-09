@@ -3,7 +3,7 @@ import { CheckCircle } from "@material-ui/icons";
 import Grid from "@material-ui/core/Grid";
 
 const SideSummary = ({
-  mainTitle = "Why TaxiConnect?",
+  mainTitle = "Why Orniss?",
   headTitles = ["title1", "title2"],
   subForTitles = ["sub1", "sub2"],
   iconLeading = <CheckCircle />,
