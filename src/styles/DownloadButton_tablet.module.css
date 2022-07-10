@@ -41,7 +41,7 @@
 .container {
   background-color: black;
   width: 45%;
-  height: 90px;
+  height: 100px;
   display: inline-flex;
   flex-direction: row;
   color: white;
@@ -73,10 +73,10 @@
 }
 
 .introText {
-  font-size: 3.3vmin;
+  font-size: 3vmin;
 }
 
 .storeName {
   font-family: "MoveTextBold";
-  font-size: 4.3vmin;
+  font-size: 4vmin;
 }

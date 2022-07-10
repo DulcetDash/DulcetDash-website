@@ -4,6 +4,7 @@ import PrivacyMobile from "./Screens/PrivacyMobile";
 import PrivacyTablet from "./Screens/PrivacyTablet";
 
 function Privacy() {
+  document.title = "Privacy | Orniss";
   //Responsive rules
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",

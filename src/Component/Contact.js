@@ -4,6 +4,7 @@ import ContactMobile from "./Screens/ContactMobile";
 import ContactTablet from "./Screens/ContactTablet";
 
 function Contact() {
+  document.title = "Contact | Orniss";
   //Responsive rules
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",
