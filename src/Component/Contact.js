@@ -1,6 +1,7 @@
 import { useMediaQuery } from "react-responsive";
 import ContactDesktop from "./Screens/ContactDesktop";
 import ContactMobile from "./Screens/ContactMobile";
+import ContactTablet from "./Screens/ContactTablet";
 
 function Contact() {
   //Responsive rules
@@ -9,6 +10,7 @@ function Contact() {
   });
   const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isTablet = useMediaQuery({ query: "(min-width: 600px)" });
 
   return (
     <div>
@@ -16,6 +18,8 @@ function Contact() {
         <ContactDesktop />
       ) : isBigScreen ? (
         <ContactDesktop />
+      ) : isTablet ? (
+        <ContactTablet />
       ) : isTabletOrMobile ? (
         <ContactMobile />
       ) : (
