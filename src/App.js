@@ -2,8 +2,7 @@ import logo from "./logo.svg";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./Component/Home";
-import AboutDesktop from "./Component/Screens/AboutDesktop";
-import PrivacyDesktop from "./Component/Screens/PrivacyDesktop";
+import Privacy from "./Component/Privacy";
 import Contact from "./Component/Contact";
 
 function App() {
@@ -11,8 +10,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/about" component={AboutDesktop} />
-        <Route path="/privacy" component={PrivacyDesktop} />
+        <Route path="/privacy" component={Privacy} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </div>

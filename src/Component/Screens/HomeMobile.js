@@ -21,8 +21,6 @@ import normaltaxieconomy from "../../Images/Vehicles/normaltaxieconomy.jpg";
 import vandeliveryNormal_c from "../../Images/Vehicles/vandeliveryNormal_c.jpg";
 import bikesdeliveryElectric from "../../Images/Vehicles/bikesdeliveryElectric.jpg";
 import bikesdeliveryNormal_d from "../../Images/Vehicles/bikesdeliveryNormal_d.jpg";
-import phoneHands from "../../Images/phone.png";
-import windhoek from "../../Images/windhoek.jpg";
 
 const HomeMobile = () => {
   return (
