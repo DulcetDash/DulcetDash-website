@@ -1,6 +1,7 @@
 import { useMediaQuery } from "react-responsive";
 import HomeDesktop from "./Screens/HomeDesktop";
 import HomeMobile from "./Screens/HomeMobile";
+import HomeTablet from "./Screens/HomeTablet";
 
 function Home() {
   //Responsive rules
@@ -9,6 +10,7 @@ function Home() {
   });
   const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isTablet = useMediaQuery({ query: "(min-width: 600px)" });
 
   return (
     <div>
@@ -16,6 +18,8 @@ function Home() {
         <HomeDesktop />
       ) : isBigScreen ? (
         <HomeDesktop />
+      ) : isTablet ? (
+        <HomeTablet />
       ) : isTabletOrMobile ? (
         <HomeMobile />
       ) : (

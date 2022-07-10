@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "MoveBold";
+  src: local("MoveBold"), url(../fonts/MoveBold.otf);
+}
+
+@font-face {
+  font-family: "MoveMedium";
+  src: local("MoveMedium"), url(../fonts/MoveMedium.otf);
+}
+
+@font-face {
+  font-family: "MoveRegular";
+  src: local("MoveRegular"), url(../fonts/MoveRegular.ttf);
+}
+
+@font-face {
+  font-family: "MoveLight";
+  src: local("MoveLight"), url(../fonts/MoveLight.ttf);
+}
+
+@font-face {
+  font-family: "MoveTextBold";
+  src: local("MoveTextBold"), url(../fonts/UberMoveTextBold.otf);
+}
+
+@font-face {
+  font-family: "MoveTextMedium";
+  src: local("UberMoveTextMedium"), url(../fonts/UberMoveTextMedium.otf);
+}
+
+@font-face {
+  font-family: "MoveTextRegular";
+  src: local("UberMoveTextRegular"), url(../fonts/UberMoveTextRegular.otf);
+}
+
+@font-face {
+  font-family: "MoveTextLight";
+  src: local("UberMoveTextLight"), url(../fonts/UberMoveTextLight.otf);
+}
+
+.container {
+  /* border: 1px solid black; */
+  /* background-color: red; */
+  padding-bottom: 17vmin;
+  padding-top: 5vmin;
+}
+
+.containerCard {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 40vmin;
+  text-align: center;
+}
+
+.imageCardContainer {
+  /* border: 1px solid black; */
+  height: 14vmin;
+  width: 14vmin;
+  margin: auto;
+}
+
+.mainTitleCard {
+  font-family: "MoveBold", sans-serif;
+  font-size: 4.3vmin;
+  padding-top: 20px;
+}
+
+.imageCardTrue {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.subTextCard {
+  /* border: 1px solid black; */
+  padding-top: 15px;
+  font-size: 3.1vmin;
+  height: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.specCardText {
+  /* border: 1px solid black; */
+}
+
+.passengerLine {
+  /* border: 1px solid black; */
+  display: flex;
+  font-family: "MoveTextMedium", sans-serif;
+  color: #096ed4;
+}
+
+.linearSeparatorConnects {
+  /* background-image: linear-gradient(#fff, #000, #fff); */
+  height: 1px;
+  width: 100px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Intro */
+.introConnectsContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vmin;
+  margin-top: 4vmin;
+}
+
+.introConnectsImgContainer {
+  /* border: 1px solid black; */
+  width: 80px;
+  height: 80px;
+}
+
+.linkImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.subTextIntroConnects {
+  /* border: 1px solid black; */
+  padding-top: 20px;
+  font-size: 3.5vmin;
+}
+
+.containerPillars {
+  /* border: 1px solid red; */
+}
