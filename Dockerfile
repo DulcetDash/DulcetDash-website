@@ -8,6 +8,7 @@ WORKDIR /app
 # #Development
 # # RUN mv .env_dev .env
 
+RUN npm install -g serve
 RUN npm install yarn -g --force
 RUN npm install pm2 -g
 RUN pm2 install pm2-logrotate
