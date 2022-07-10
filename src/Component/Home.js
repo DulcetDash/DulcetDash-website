@@ -1,5 +1,6 @@
 import { useMediaQuery } from "react-responsive";
 import HomeDesktop from "./Screens/HomeDesktop";
+import HomeMobile from "./Screens/HomeMobile";
 
 function Home() {
   //Responsive rules
@@ -11,16 +12,16 @@ function Home() {
 
   return (
     <div>
-      {/* {isDesktopOrLaptop ? (
+      {isDesktopOrLaptop ? (
         <HomeDesktop />
       ) : isBigScreen ? (
-        "Big screen"
+        <HomeDesktop />
       ) : isTabletOrMobile ? (
-        "Table/mobile"
+        <HomeMobile />
       ) : (
         "Other screen"
-      )} */}
-      <HomeDesktop />
+      )}
+      {/* <HomeDesktop /> */}
     </div>
   );
 }
