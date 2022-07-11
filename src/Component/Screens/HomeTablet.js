@@ -106,7 +106,7 @@ const HomeTablet = () => {
                 "Accurate pricing",
               ]}
               subForTitles={[
-                "Orniss allows you make ride, delivery or shopping requests seemlessly and consistently.",
+                "Orniss allows you to make ride, delivery or shopping requests seamlessly and consistently.",
                 "We keep you safe at all times by encrypting end-to-end all your data.",
                 "We provide very realistic and affordable prices anywhere in Windhoek.",
               ]}
