@@ -78,7 +78,10 @@ const HomeTablet = () => {
         {/* Button */}
         <div
           className={classes.btnDeliverySol}
-          onClick={() => (window.location.href = "/contact")}
+          onClick={() =>
+            (window.location.href =
+              "https://play.google.com/store/apps/details?id=com.nej.drivers")
+          }
         >
           Sign up to drive
         </div>
