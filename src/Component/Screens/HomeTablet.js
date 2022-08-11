@@ -48,7 +48,7 @@ const HomeTablet = () => {
             <div className={classes.presHaaderDownloadContainer}>
               <DownloadButton_tablet
                 link={
-                  "https://play.google.com/store/apps/details?id=com.Orniss"
+                  "https://play.google.com/store/apps/details?id=com.nej.riders"
                 }
               />
               {/* <DownloadButton_tablet
@@ -116,7 +116,7 @@ const HomeTablet = () => {
               endComponents={[
                 <DownloadButton_tablet
                   link={
-                    "https://play.google.com/store/apps/details?id=com.Orniss"
+                    "https://play.google.com/store/apps/details?id=com.nej.riders"
                   }
                 />,
                 // <DownloadButton_tablet

@@ -132,7 +132,7 @@ const HomeDesktop = () => {
                 endComponents={[
                   <ButtonDownload
                     link={
-                      "https://play.google.com/store/apps/details?id=com.Orniss"
+                      "https://play.google.com/store/apps/details?id=com.nej.riders"
                     }
                   />,
                   // <ButtonDownload
