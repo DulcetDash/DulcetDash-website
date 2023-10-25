@@ -81,8 +81,7 @@ class ContactMobile extends React.PureComponent {
             }
             // asyncRender={true}
             dragPan={true}
-            scrollZoom={true}
-          ></ReactMapGL>
+            scrollZoom={true}></ReactMapGL>
         </div>
 
         {/* Before last form */}
@@ -95,8 +94,7 @@ class ContactMobile extends React.PureComponent {
           <Grid item>
             <div
               // className={classes.rightPartBPOContainer}
-              style={{ marginTop: "7%" }}
-            >
+              style={{ marginTop: "7%" }}>
               <SideSummaryMobile
                 mainTitle={
                   <div style={{ position: "relative", left: 36 }}>
@@ -108,7 +106,7 @@ class ContactMobile extends React.PureComponent {
                   "We'll be more than happy to assist you with any query, you can get in touch with us any time.",
                   "Windhoek, Namibia",
                   "+264856997167",
-                  "support@ornisstechnologies.com",
+                  "support@dulcetdash.com",
                 ]}
                 iconLeading={<></>}
                 endComponents={null}

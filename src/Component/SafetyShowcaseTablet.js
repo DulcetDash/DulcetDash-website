@@ -15,7 +15,7 @@ const SafetyShowcaseTablet = () => {
           introTitle="Or"
           storeName="AppStore"
           marginLeft={"5%"}
-          link={"https://apps.apple.com/us/app/Orniss/id1523176507"}
+          link={"https://apps.apple.com/us/app/DulcetDash/id1523176507"}
         />
         <ButtonDownload
           storeIcon="appgallery"
@@ -29,8 +29,7 @@ const SafetyShowcaseTablet = () => {
       <div
         className={classes.signupFooter}
         style={{ cursor: "pointer" }}
-        onClick={() => (window.location.href = "/contact")}
-      >
+        onClick={() => (window.location.href = "/contact")}>
         Or <strong>signup</strong> to drive
       </div>
     </div>

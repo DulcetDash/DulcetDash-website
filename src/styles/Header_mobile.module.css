@@ -50,14 +50,14 @@
   padding-top: 20px;
 }
 
-.headerBar>div {
+.headerBar > div {
   /* border: 1px solid black; */
   align-items: center;
 }
 
 .logo {
   /* border: 1px solid black; */
-  width: 130px;
+  width: 230px;
   height: 50px;
   margin-right: 60px;
 }
@@ -82,7 +82,7 @@
 }
 
 .headerMenuName:hover {
-  color: #11A05A;
+  color: #11a05a;
 }
 
 .loginSignupContainer {

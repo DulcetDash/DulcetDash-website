@@ -1,5 +1,5 @@
 import classes from "../styles/Header_tablet.module.css";
-import logo from "../Images/logo.png";
+import logo from "../Images/logo_2.png";
 import Grid from "@material-ui/core/Grid";
 import LoginButton from "./LoginButton";
 import { Link } from "react-router-dom";
@@ -11,8 +11,7 @@ const HeaderTablet = () => {
         <Grid item>
           <div
             className={classes.logo}
-            onClick={() => (window.location.href = "/")}
-          >
+            onClick={() => (window.location.href = "/")}>
             <img
               alt="logo"
               src={logo}

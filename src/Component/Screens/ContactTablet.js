@@ -81,8 +81,7 @@ class ContactTablet extends React.PureComponent {
             }
             // asyncRender={true}
             dragPan={true}
-            scrollZoom={true}
-          ></ReactMapGL>
+            scrollZoom={true}></ReactMapGL>
         </div>
 
         {/* Before last form */}
@@ -95,8 +94,7 @@ class ContactTablet extends React.PureComponent {
           <Grid item>
             <div
               // className={classes.rightPartBPOContainer}
-              style={{ marginTop: "7%" }}
-            >
+              style={{ marginTop: "7%" }}>
               <SideSummaryTablet
                 mainTitle={
                   <div style={{ position: "relative", left: 46 }}>
@@ -108,7 +106,7 @@ class ContactTablet extends React.PureComponent {
                   "We'll be more than happy to assist you with any query, you can get in touch with us any time.",
                   "Windhoek, Namibia",
                   "+264856997167",
-                  "support@ornisstechnologies.com",
+                  "support@dulcetdash.com",
                 ]}
                 iconLeading={<></>}
                 endComponents={null}

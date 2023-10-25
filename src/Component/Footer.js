@@ -8,7 +8,7 @@ import {
   LocationOn,
   Public,
 } from "@material-ui/icons";
-import logoWhite from "../Images/logo_white.png";
+import logoWhite from "../Images/logo_white_2.png";
 
 const Footer = () => {
   return (
@@ -36,8 +36,7 @@ const Footer = () => {
               </div> */}
               <div
                 className={classes.elementIn}
-                onClick={() => (window.location.href = "/contact")}
-              >
+                onClick={() => (window.location.href = "/contact")}>
                 Contact
               </div>
             </div>
@@ -48,20 +47,17 @@ const Footer = () => {
               <div className={classes.title}>Products</div>
               <div
                 className={classes.elementIn}
-                onClick={() => (window.location.href = "/")}
-              >
+                onClick={() => (window.location.href = "/")}>
                 Ride
               </div>
               <div
                 className={classes.elementIn}
-                onClick={() => (window.location.href = "/")}
-              >
+                onClick={() => (window.location.href = "/")}>
                 Delivery
               </div>
               <div
                 className={classes.elementIn}
-                onClick={() => (window.location.href = "/")}
-              >
+                onClick={() => (window.location.href = "/")}>
                 Shopping
               </div>
             </div>
@@ -94,7 +90,8 @@ const Footer = () => {
               <div className={classes.socialMed}>
                 <Facebook
                   onClick={() =>
-                    (window.location.href = "https://www.facebook.com/orniss")
+                    (window.location.href =
+                      "https://www.facebook.com/DulcetDash")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
@@ -103,7 +100,7 @@ const Footer = () => {
                 <LinkedIn
                   onClick={() =>
                     (window.location.href =
-                      "https://www.linkedin.com/company/orniss")
+                      "https://www.linkedin.com/company/DulcetDash")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
@@ -125,20 +122,18 @@ const Footer = () => {
       {/* Thrid stage */}
       <Grid container className={classes.containerCopyrightTerms}>
         <Grid item xs={6} className={classes.copyrPart1}>
-          <div>© 2022 Orniss Technologies CC.</div>
+          <div>© 2023 DulcetDash Technologies CC.</div>
         </Grid>
         <Grid item xs={6} className={classes.copyrPart2}>
           <div
             className={classes.termsEls}
-            onClick={() => (window.location.href = "/privacy")}
-          >
+            onClick={() => (window.location.href = "/privacy")}>
             Privacy
           </div>
           <div
             className={classes.termsEls}
             onClick={() => (window.location.href = "/privacy")}
-            style={{ marginRight: 0 }}
-          >
+            style={{ marginRight: 0 }}>
             Terms
           </div>
         </Grid>

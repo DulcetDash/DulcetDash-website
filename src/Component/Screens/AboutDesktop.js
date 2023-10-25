@@ -100,7 +100,7 @@
 //           <Grid item xs={5}>
 //             <div className={classes.rightPartBPOContainer}>
 //               <SideSummary
-//                 mainTitle={"Why Orniss cares?"}
+//                 mainTitle={"Why DulcetDash cares?"}
 //                 headTitles={[""]}
 //                 subForTitles={[
 //                   "The Namibian taxi industry is one berly evolving and is being left behind as the world moves into the 4th Industrial Revolution thus leaving gaps for fear, theft, piracy and so many others you or someone close to you has personally experienced. We care because your safety matters and you deserve convenience in your busy schedule.",

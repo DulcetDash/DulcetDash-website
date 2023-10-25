@@ -3,7 +3,7 @@ import { CheckCircle } from "@material-ui/icons";
 import Grid from "@material-ui/core/Grid";
 
 const SideSummary = ({
-  mainTitle = "Why Orniss?",
+  mainTitle = "Why DulcetDash?",
   headTitles = ["title1", "title2"],
   subForTitles = ["sub1", "sub2"],
   iconLeading = <CheckCircle />,
@@ -14,8 +14,7 @@ const SideSummary = ({
       {mainTitle !== null ? (
         <div
           className={classes.mainTitle}
-          style={{ marginLeft: iconLeading == null ? "40px" : "0px" }}
-        >
+          style={{ marginLeft: iconLeading == null ? "40px" : "0px" }}>
           {mainTitle}
         </div>
       ) : null}
@@ -23,8 +22,7 @@ const SideSummary = ({
         return (
           <div
             className={classes.elementInsideContainer}
-            style={{ marginLeft: iconLeading == null ? "40px" : "0px" }}
-          >
+            style={{ marginLeft: iconLeading == null ? "40px" : "0px" }}>
             {iconLeading !== null ? (
               <div className={classes.insidePicContainer}>{iconLeading}</div>
             ) : null}

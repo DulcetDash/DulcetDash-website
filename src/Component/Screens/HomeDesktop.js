@@ -33,8 +33,7 @@ const HomeDesktop = () => {
           justifyContent="center"
           alignItems="center"
           container
-          className={classes.gridContainer}
-        >
+          className={classes.gridContainer}>
           <Grid item xs={5}>
             <div className={classes.leftpartContainer}>
               <div className={classes.prestTextEntryContainer}>
@@ -63,7 +62,7 @@ const HomeDesktop = () => {
                   introTitle="Or"
                   storeName="AppStore"
                   marginLeft={"5%"}
-                  link={"https://apps.apple.com/us/app/Orniss/id1523176507"}
+                  link={"https://apps.apple.com/us/app/DulcetDash/id1523176507"}
                 /> */}
               </div>
             </div>
@@ -80,7 +79,7 @@ const HomeDesktop = () => {
         <div className={classes.insideBusinessC}>
           <div className={classes.titleBusi}>Earn extra money</div>
           <div className={classes.subTitleBusi}>
-            Drive on your free time for Orniss to make money
+            Drive on your free time for DulcetDash to make money
           </div>
         </div>
         {/* Button */}
@@ -89,8 +88,7 @@ const HomeDesktop = () => {
           onClick={() =>
             (window.location.href =
               "https://play.google.com/store/apps/details?id=com.nej.drivers")
-          }
-        >
+          }>
           Sign up to drive
         </div>
       </div>
@@ -106,8 +104,7 @@ const HomeDesktop = () => {
           container
           direction="row"
           alignItems="center"
-          justifyContent="center"
-        >
+          justifyContent="center">
           <Grid item xs={4}>
             <div className={classes.leftPartBPOContainer}>
               <img alt="phon1" src={Phone1} className={classes.phone1} />
@@ -116,14 +113,14 @@ const HomeDesktop = () => {
           <Grid item xs={5}>
             <div className={classes.rightPartBPOContainer}>
               <SideSummary
-                mainTitle={"Why Orniss?"}
+                mainTitle={"Why DulcetDash?"}
                 headTitles={[
                   "Tap once, do anything",
                   "Sound safety",
                   "Accurate pricing",
                 ]}
                 subForTitles={[
-                  "Orniss allows you to make ride, delivery or shopping requests seamlessly and consistently.",
+                  "DulcetDash allows you to make ride, delivery or shopping requests seamlessly and consistently.",
                   "We keep you safe at all times by encrypting end-to-end all your data.",
                   "We provide very realistic and affordable prices anywhere in Windhoek.",
                 ]}

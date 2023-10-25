@@ -81,8 +81,7 @@ class ContactDesktop extends React.PureComponent {
             }
             // asyncRender={true}
             dragPan={true}
-            scrollZoom={true}
-          ></ReactMapGL>
+            scrollZoom={true}></ReactMapGL>
         </div>
 
         {/* Before last form */}
@@ -91,8 +90,7 @@ class ContactDesktop extends React.PureComponent {
             container
             direction="row"
             alignItems="center"
-            justifyContent="center"
-          >
+            justifyContent="center">
             <Grid item xs={4}>
               <div className={classes.leftPartBPOContainerBeforeFooter}>
                 <img alt="hands2" src={hands2} className={classes.phone1} />
@@ -111,7 +109,7 @@ class ContactDesktop extends React.PureComponent {
                     "We'll be more than happy to assist you with any query, you can get in touch with us any time.",
                     "Windhoek, Namibia",
                     "+264856997167",
-                    "support@ornisstechnologies.com",
+                    "support@dulcetdash.com",
                   ]}
                   iconLeading={<></>}
                   endComponents={null}
