@@ -64,7 +64,7 @@ const FooterTablet = () => {
         <Grid item>
           <div className={classes.seconStageContainer}>
             <div className={classes.secondStageEls1}>
-              <div className={classes.socialMed}>
+              {/* <div className={classes.socialMed}>
                 <Twitter
                   onClick={() =>
                     (window.location.href = "https://twitter.com/dulcetdash")
@@ -89,12 +89,12 @@ const FooterTablet = () => {
                   }
                   style={{ fontSize: "5vmin" }}
                 />
-              </div>
+              </div> */}
               <div className={classes.socialMed}>
                 <LinkedIn
                   onClick={() =>
                     (window.location.href =
-                      "https://www.linkedin.com/company/DulcetDash")
+                      "https://www.linkedin.com/company/dulcetdash")
                   }
                   style={{ fontSize: "5vmin" }}
                 />
