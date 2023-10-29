@@ -26,31 +26,7 @@ const ConnectMeUs = () => {
         container
         direction="row"
         alignItems="center"
-        justifyContent="center"
-      >
-        <Grid item>
-          <div className={classes.containerCard}>
-            <div className={classes.imageCardContainer}>
-              <img
-                alt="ride"
-                src={carImage}
-                className={classes.imageCardTrue}
-              />
-            </div>
-            <div className={classes.mainTitleCard}>Ride</div>
-            <div className={classes.subTextCard}>
-              Request for a ride anywhere in Windhoek affordably and reliably.
-            </div>
-            {/* <div className={classes.specCardText}>
-              <div className={classes.passengerLine}>
-                <Person style={{ fontSize: 21 }} />4 passengers
-              </div>
-            </div> */}
-          </div>
-        </Grid>
-        <Grid item xs={1}>
-          <div className={classes.linearSeparatorConnects}></div>
-        </Grid>
+        justifyContent="center">
         <Grid item>
           <div className={classes.containerCard}>
             <div className={classes.imageCardContainer}>
@@ -72,7 +48,7 @@ const ConnectMeUs = () => {
             </div> */}
           </div>
         </Grid>
-        <Grid item xs={1}>
+        <Grid item xs={2}>
           <div className={classes.linearSeparatorConnects}></div>
         </Grid>
         <Grid item>
@@ -84,7 +60,7 @@ const ConnectMeUs = () => {
                 className={classes.imageCardTrue}
               />
             </div>
-            <div className={classes.mainTitleCard}>Shopping</div>
+            <div className={classes.mainTitleCard}>Groceries</div>
             <div className={classes.subTextCard}>
               Do your groceries from the comfort of your home and have it
               delivered quickly.

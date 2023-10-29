@@ -48,17 +48,12 @@ const FooterMobile = () => {
               <div
                 className={classes.elementIn}
                 onClick={() => (window.location.href = "/")}>
-                Ride
-              </div>
-              <div
-                className={classes.elementIn}
-                onClick={() => (window.location.href = "/")}>
                 Delivery
               </div>
               <div
                 className={classes.elementIn}
                 onClick={() => (window.location.href = "/")}>
-                Shopping
+                Groceries
               </div>
             </div>
           </Grid>

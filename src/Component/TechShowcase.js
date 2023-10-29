@@ -32,8 +32,7 @@ const TechShowcase = () => {
         container
         direction="row"
         alignItems="center"
-        justifyContent="center"
-      >
+        justifyContent="center">
         <Grid item>
           <div className={classes.containerCard}>
             <div className={classes.imageCardContainer}>
@@ -60,7 +59,7 @@ const TechShowcase = () => {
             </div>
             <div className={classes.mainTitleCard}>Sustainability</div>
             <div className={classes.subTextCard}>
-              Our efficient routing allows our drivers to safe on fuel, reducing
+              Our efficient routing allows our drivers to save on fuel, reducing
               greenhouse gases.
             </div>
             {/* <div className={classes.specCardText}>

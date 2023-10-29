@@ -55,7 +55,7 @@ const TechShowcaseTablet = () => {
             </div>
             <div className={classes.mainTitleCard}>Sustainability</div>
             <div className={classes.subTextCard}>
-              Our efficient routing allows our drivers to safe on fuel, reducing
+              Our efficient routing allows our drivers to save on fuel, reducing
               greenhouse gases.
             </div>
             {/* <div className={classes.specCardText}>

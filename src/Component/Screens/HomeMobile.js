@@ -32,8 +32,6 @@ const HomeMobile = () => {
           <div className={classes.leftpartContainer}>
             <div className={classes.prestTextEntryContainer}>
               <span className={classes.prestTextEntry}>
-                Go anywhere,
-                <br />
                 Move anything,
                 <br />
                 Shop for anything
@@ -41,8 +39,8 @@ const HomeMobile = () => {
             </div>
             <div className={classes.presTextSubContainer}>
               <span className={classes.presTextSub}>
-                The most customer-centric app for your everyday logisitics
-                needs, just a click away.
+                The most customer-centric app for all your everyday essentials,
+                just a click away.
               </span>
             </div>
             <div className={classes.presHaaderDownloadContainer}>

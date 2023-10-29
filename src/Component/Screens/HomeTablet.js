@@ -32,8 +32,6 @@ const HomeTablet = () => {
           <div className={classes.leftpartContainer}>
             <div className={classes.prestTextEntryContainer}>
               <span className={classes.prestTextEntry}>
-                Go anywhere,
-                <br />
                 Move anything,
                 <br />
                 Shop for anything
@@ -41,8 +39,8 @@ const HomeTablet = () => {
             </div>
             <div className={classes.presTextSubContainer}>
               <span className={classes.presTextSub}>
-                The most customer-centric app for your everyday logisitics
-                needs, just a click away.
+                The most customer-centric app for all your everyday essentials,
+                just a click away.
               </span>
             </div>
             <div className={classes.presHaaderDownloadContainer}>
@@ -108,7 +106,7 @@ const HomeTablet = () => {
                 "Accurate pricing",
               ]}
               subForTitles={[
-                "DulcetDash allows you to make ride, delivery or shopping requests seamlessly and consistently.",
+                "DulcetDash allows you to make delivery or shopping requests seamlessly and consistently.",
                 "We keep you safe at all times by encrypting end-to-end all your data.",
                 "We provide very realistic and affordable prices anywhere in Windhoek.",
               ]}
