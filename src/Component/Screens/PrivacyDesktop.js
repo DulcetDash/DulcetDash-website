@@ -147,8 +147,8 @@ const PrivacyDesktop = () => {
           1,
           "Introduction",
           [
-            "DulcetDash is a ride-hailing technology platform that, as part of obtaining ride-hail services, enables users (“Users”) of our mobile ride-hail application (the “App”) to arrange rides, deliveries and shopping with independent contractors (DulcetDash Partners contractors”). This Privacy Policy applies to Users.",
-            "This Privacy Policy applies to Users’ access to and use of the App, websites, content, products and services (collectively, the “ Services ”) made available to Users on or through Orniss’s website at “ www.dulcetdash.com ”, which is composed of numerous subsites and webpages operated by DulcetDash (collectively, the “ Website ”), whether accessed or used via personal computers, mobile devices, or otherwise, provided as part of the Services. In this Privacy Policy, references to “ you ” or “your ” mean Users, including and references to “ DulcetDash ”, “ we ”, “ us ”, “ our ” refers to DulcetDash Technologies cc.",
+            "DulcetDash is a ride-hailing technology platform that, as part of obtaining ride-hail services, enables users (“Users”) of our mobile ride-hail application (the “App”) to arrange rides, deliveries and shopping with independent contractors (DulcetDash contractors”). This Privacy Policy applies to Users.",
+            "This Privacy Policy applies to Users’ access to and use of the App, websites, content, products and services (collectively, the “ Services ”) made available to Users on or through DulcetDash’s website at “ www.dulcetdash.com ”, which is composed of numerous subsites and webpages operated by DulcetDash (collectively, the “ Website ”), whether accessed or used via personal computers, mobile devices, or otherwise, provided as part of the Services. In this Privacy Policy, references to “ you ” or “your ” mean Users, including and references to “ DulcetDash ”, “ we ”, “ us ”, “ our ” refers to DulcetDash Technologies cc.",
             "By creating an account, installing the App, and using the App, Website or Services, you agree to the collection, use and disclosure of Personal Information as set out in this Privacy Policy.",
             "We have prepared this Privacy Policy to describe how we collect, use, disclose and otherwise manage the personal information we collect from you through the Website, the Services and the App (as defined above).",
             "If you have any questions about this Privacy Policy or don’t see your concerns addressed here, you should contact us by email at support@dulcetdash.com",
@@ -205,9 +205,8 @@ const PrivacyDesktop = () => {
           "Sharing of personal information",
           [
             {
-              superTitle:
-                "Personal information shared with DulcetDash Partner Drivers",
-              text: "We will share your personal information with DulcetDash Partner Drivers in certain situations. When you are connected with a DulcetDash Partner Driver for a trip, we will share certain profile information with the DulcetDash Partner Driver, including your name, picture, contact number, pickup location, destination location, as well as geolocation information.",
+              superTitle: "Personal information shared with DulcetDash Drivers",
+              text: "We will share your personal information with DulcetDash Drivers in certain situations. When you are connected with a DulcetDash Driver for a request, we will share certain profile information with the DulcetDash Driver, including your name, picture, contact number, pickup location, destination location, as well as geolocation information.",
             },
             {
               superTitle: "Legal",
@@ -258,7 +257,7 @@ const PrivacyDesktop = () => {
           10,
           "How to contact us",
           [
-            "If you have any questions, concerns or complaints regarding our Privacy Policy please contact us by email at support@dulcetdash.com or via phone at +264856997167.",
+            "If you have any questions, concerns or complaints regarding our Privacy Policy please contact us by email at support@dulcetdash.com.",
           ],
           null
         )}

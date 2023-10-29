@@ -67,8 +67,7 @@ const Footer = () => {
               <div className={classes.socialMed}>
                 <Twitter
                   onClick={() =>
-                    (window.location.href =
-                      "https://twitter.com/Orniss_namibia")
+                    (window.location.href = "https://twitter.com/dulcetdash")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
@@ -77,7 +76,7 @@ const Footer = () => {
                 <Instagram
                   onClick={() =>
                     (window.location.href =
-                      "https://www.instagram.com/orniss_namibia/")
+                      "https://www.instagram.com/dulcetdash/")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />

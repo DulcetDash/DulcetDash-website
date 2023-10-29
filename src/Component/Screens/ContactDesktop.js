@@ -108,7 +108,6 @@ class ContactDesktop extends React.PureComponent {
                   subForTitles={[
                     "We'll be more than happy to assist you with any query, you can get in touch with us any time.",
                     "Windhoek, Namibia",
-                    "+264856997167",
                     "support@dulcetdash.com",
                   ]}
                   iconLeading={<></>}
