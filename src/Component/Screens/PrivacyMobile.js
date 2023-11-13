@@ -14,7 +14,7 @@ const headTerms = () => {
     <div className={classes.headerPrivacy}>
       <div className={classes.downloadTerms}>TERMS & CONDITIONS</div>
       <div className={classes.titleHeadPrivacy}>
-        OrDulcetDashniss Privacy Policy Statement
+        DulcetDash Privacy Policy Statement
       </div>
       <div className={classes.dateUpdated}>Last update : Nov 3, 2023</div>
       <div className={classes.shortIntroHead}>
