@@ -16,7 +16,7 @@ const headTerms = () => {
       <div className={classes.titleHeadPrivacy}>
         OrDulcetDashniss Privacy Policy Statement
       </div>
-      <div className={classes.dateUpdated}>Last update : Jul 9, 2023</div>
+      <div className={classes.dateUpdated}>Last update : Nov 3, 2023</div>
       <div className={classes.shortIntroHead}>
         Thanks for entrusting DulcetDash with your personal information. Holding
         onto your private information is a serious responsibility, and we want
@@ -147,7 +147,7 @@ const PrivacyMobile = () => {
           1,
           "Introduction",
           [
-            "DulcetDash is a ride-hailing technology platform that, as part of obtaining ride-hail services, enables users (“Users”) of our mobile ride-hail application (the “App”) to arrange rides, deliveries and shopping with independent contractors (DulcetDash contractors”). This Privacy Policy applies to Users.",
+            "DulcetDash is a grocery shopping and delivery platform that enables users (“Users”) of our mobile application (the “App”) to request for deliveries and shopping with our drivers (DulcetDash drivers). This Privacy Policy applies to Users.",
             "This Privacy Policy applies to Users’ access to and use of the App, websites, content, products and services (collectively, the “ Services ”) made available to Users on or through DulcetDash’s website at “ www.dulcetdash.com ”, which is composed of numerous subsites and webpages operated by DulcetDash (collectively, the “ Website ”), whether accessed or used via personal computers, mobile devices, or otherwise, provided as part of the Services. In this Privacy Policy, references to “ you ” or “your ” mean Users, including and references to “ DulcetDash ”, “ we ”, “ us ”, “ our ” refers to DulcetDash Technologies cc.",
             "By creating an account, installing the App, and using the App, Website or Services, you agree to the collection, use and disclosure of Personal Information as set out in this Privacy Policy.",
             "We have prepared this Privacy Policy to describe how we collect, use, disclose and otherwise manage the personal information we collect from you through the Website, the Services and the App (as defined above).",
@@ -171,7 +171,7 @@ const PrivacyMobile = () => {
           [
             "User profile information: Name, email address, phone number and picture; • Trip information : Includes, but is not limited to, GPS location and information regarding pick up and drop off locations, trip time, trip routes, etc.",
             "Device and traffic information : Includes, but is not limited to: IP (Internet protocol) addresses, hardware model, operating system and version, date and time of access, geolocation, page requests, browser type and error logs, etc . Geolocation data is only collected while the App is open.",
-            "When you elect to register for the Services, you will be required to provide us with your profile information. Users must provide their email address and phone number in order to use the App to access ride-hailing services. Certain information, in particular their name and picture, and whether to enable notification and location services, are optional to use our Services, the Website or the App. However, if you decide not to provide such information, you may not be able to take full advantage of all of the features of our Services, the Website and/or the App.",
+            "When you elect to register for the Services, you will be required to provide us with your profile information. Users must provide their email address and phone number in order to use the App to access our services. Certain information, in particular their name and picture, and whether to enable notification and location services, are optional to use our Services, the Website or the App. However, if you decide not to provide such information, you may not be able to take full advantage of all of the features of our Services, the Website and/or the App.",
           ],
           "The term “personal information” means information about an identifiable individual, including name, address, email address, and other information relating to an individual. We collect the following types of personal information from Users:"
         )}
