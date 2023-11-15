@@ -8,7 +8,9 @@ const SafetyShowcaseMobile = () => {
 
       <div className={classes.downloadParts}>
         <ButtonDownload_mobile
-          link={"https://play.google.com/store/apps/details?id=com.nej.riders"}
+          link={
+            "https://play.google.com/store/apps/details?id=com.users.dulcetdash"
+          }
         />
         {/* <ButtonDownload
           storeIcon="appstore"

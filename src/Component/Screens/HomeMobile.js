@@ -78,7 +78,7 @@ const HomeMobile = () => {
           className={classes.btnDeliverySol}
           onClick={() =>
             (window.location.href =
-              "https://play.google.com/store/apps/details?id=com.nej.drivers")
+              "https://play.google.com/store/apps/details?id=com.users.dulcetdash")
           }>
           Sign up to drive
         </div>
@@ -116,7 +116,7 @@ const HomeMobile = () => {
               endComponents={[
                 <ButtonDownload_mobile
                   link={
-                    "https://play.google.com/store/apps/details?id=com.nej.riders"
+                    "https://play.google.com/store/apps/details?id=com.users.dulcetdash"
                   }
                 />,
                 // <ButtonDownload_mobile

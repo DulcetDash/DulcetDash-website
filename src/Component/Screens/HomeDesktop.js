@@ -52,7 +52,7 @@ const HomeDesktop = () => {
               <div className={classes.presHaaderDownloadContainer}>
                 <ButtonDownload
                   link={
-                    "https://play.google.com/store/apps/details?id=com.nej.riders"
+                    "https://play.google.com/store/apps/details?id=com.users.dulcetdash"
                   }
                 />
                 {/* <ButtonDownload
@@ -130,7 +130,7 @@ const HomeDesktop = () => {
                 endComponents={[
                   <ButtonDownload
                     link={
-                      "https://play.google.com/store/apps/details?id=com.nej.riders"
+                      "https://play.google.com/store/apps/details?id=com.users.dulcetdash"
                     }
                   />,
                   // <ButtonDownload

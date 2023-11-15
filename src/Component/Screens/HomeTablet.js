@@ -46,7 +46,7 @@ const HomeTablet = () => {
             <div className={classes.presHaaderDownloadContainer}>
               <DownloadButton_tablet
                 link={
-                  "https://play.google.com/store/apps/details?id=com.nej.riders"
+                  "https://play.google.com/store/apps/details?id=com.users.dulcetdash"
                 }
               />
               {/* <DownloadButton_tablet
@@ -78,7 +78,7 @@ const HomeTablet = () => {
           className={classes.btnDeliverySol}
           onClick={() =>
             (window.location.href =
-              "https://play.google.com/store/apps/details?id=com.nej.drivers")
+              "https://play.google.com/store/apps/details?id=com.users.dulcetdash")
           }>
           Sign up to drive
         </div>
@@ -116,7 +116,7 @@ const HomeTablet = () => {
               endComponents={[
                 <DownloadButton_tablet
                   link={
-                    "https://play.google.com/store/apps/details?id=com.nej.riders"
+                    "https://play.google.com/store/apps/details?id=com.users.dulcetdash"
                   }
                 />,
                 // <DownloadButton_tablet
