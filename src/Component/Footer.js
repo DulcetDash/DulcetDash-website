@@ -116,7 +116,7 @@ const Footer = () => {
       {/* Thrid stage */}
       <Grid container className={classes.containerCopyrightTerms}>
         <Grid item xs={6} className={classes.copyrPart1}>
-          <div>© 2023 DulcetDash Technologies CC.</div>
+          <div>© 2023 DulcetDash.</div>
         </Grid>
         <Grid item xs={6} className={classes.copyrPart2}>
           <div

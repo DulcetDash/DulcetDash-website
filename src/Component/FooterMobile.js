@@ -129,7 +129,7 @@ const FooterMobile = () => {
       </div>
       <Grid container className={classes.containerCopyrightTerms}>
         <Grid item className={classes.copyrPart1}>
-          <div>© 2023 DulcetDash Technologies CC.</div>
+          <div>© 2023 DulcetDash.</div>
         </Grid>
       </Grid>
     </div>
