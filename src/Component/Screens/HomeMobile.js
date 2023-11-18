@@ -46,7 +46,7 @@ const HomeMobile = () => {
             <div className={classes.presHaaderDownloadContainer}>
               <ButtonDownload_mobile
                 link={
-                  "https://play.google.com/store/apps/details?id=com.nej.riders"
+                  "https://play.google.com/store/apps/details?id=com.drivers.dulcetdash"
                 }
               />
               {/* <ButtonDownload_mobile

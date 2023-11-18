@@ -85,7 +85,7 @@ const HomeDesktop = () => {
           className={classes.btnDeliverySol}
           onClick={() =>
             (window.location.href =
-              "https://play.google.com/store/apps/details?id=com.nej.drivers")
+              "https://play.google.com/store/apps/details?id=com.drivers.dulcetdash")
           }>
           Sign up to drive
         </div>
