@@ -71,17 +71,17 @@ const Footer = () => {
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
-              </div>
+              </div> */}
               <div className={classes.socialMed}>
                 <Instagram
                   onClick={() =>
                     (window.location.href =
-                      "https://www.instagram.com/dulcetdash/")
+                      "https://www.instagram.com/dulcetdash")
                   }
                   style={{ fontSize: "2.3vmin" }}
                 />
               </div>
-              <div className={classes.socialMed}>
+              {/* <div className={classes.socialMed}>
                 <Facebook
                   onClick={() =>
                     (window.location.href =
