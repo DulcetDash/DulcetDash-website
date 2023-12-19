@@ -68,19 +68,19 @@ const HomeTablet = () => {
 
       <div className={classes.businessContainer}>
         <div className={classes.insideBusinessC}>
-          <div className={classes.titleBusi}>Earn extra money</div>
+          <div className={classes.titleBusi}>Corporate Delivery</div>
           <div className={classes.subTitleBusi}>
-            Drive on your free time for DulcetDash to make money
+            Streamline delivery requests for all your business needs in one
+            central hub.
           </div>
         </div>
         {/* Button */}
         <div
           className={classes.btnDeliverySol}
           onClick={() =>
-            (window.location.href =
-              "https://play.google.com/store/apps/details?id=com.drivers.dulcetdash")
+            (window.location.href = "https://business.dulcetdash.com")
           }>
-          Sign up to drive
+          Get started today
         </div>
       </div>
 

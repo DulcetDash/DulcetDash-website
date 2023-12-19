@@ -52,7 +52,7 @@
   flex: 1;
   /* border: 1px solid black; */
   min-height: 91vmin;
-  background-color: #11A05A;
+  background-color: #11a05a;
   margin-top: 1%;
 }
 
@@ -91,7 +91,8 @@
 }
 
 /** Header entry text **/
-.prestTextEntryContainer {}
+.prestTextEntryContainer {
+}
 
 .prestTextEntry {
   font-family: "MoveBold", sans-serif;
@@ -183,7 +184,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #11A05A;
+  background-color: #11a05a;
   color: white;
 }
 
@@ -191,10 +192,12 @@
   /* border: 1px solid black; */
   height: 230px;
   background-color: #d0d0d0;
-  background: linear-gradient(to right,
+  background: linear-gradient(
+      to right,
       rgba(9, 110, 212, 0.9),
       rgba(9, 110, 212, 0.9),
-      rgba(17, 160, 91, 0.9)),
+      rgba(17, 160, 91, 0.9)
+    ),
     url("../Images/5808877.jpg");
   background-position: left;
   background-repeat: repeat;
@@ -232,7 +235,7 @@
 }
 
 .subTitleBusi {
-  font-size: 4.5vmin;
+  font-size: 5vmin;
 }
 
 .btnDeliverySol {
