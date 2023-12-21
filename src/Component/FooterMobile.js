@@ -47,6 +47,13 @@ const FooterMobile = () => {
               <div className={classes.title}>Products</div>
               <div
                 className={classes.elementIn}
+                onClick={() =>
+                  (window.location.href = "https://business.dulcetdash.com")
+                }>
+                Business
+              </div>
+              <div
+                className={classes.elementIn}
                 onClick={() => (window.location.href = "/")}>
                 Delivery
               </div>

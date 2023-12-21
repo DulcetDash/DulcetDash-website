@@ -22,12 +22,11 @@ const Header = () => {
         </Grid>
         <Grid item>
           <div>
-            {/* <span
+            <a
               className={classes.headerMenuName}
-              onClick={() => (window.location.href = "/about")}
-            >
-              About
-            </span> */}
+              href="https://business.dulcetdash.com">
+              Business
+            </a>
             <Link className={classes.headerMenuName}>
               <span onClick={() => (window.location.href = "/privacy")}>
                 Privacy

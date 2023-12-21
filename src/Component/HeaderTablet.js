@@ -22,6 +22,11 @@ const HeaderTablet = () => {
         </Grid>
         <Grid item>
           <div>
+            <a
+              className={classes.headerMenuName}
+              href="https://business.dulcetdash.com">
+              Business
+            </a>
             {/* <span
               className={classes.headerMenuName}
               onClick={() => (window.location.href = "/about")}
